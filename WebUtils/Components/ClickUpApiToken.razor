@@ -1,0 +1,28 @@
+﻿<MudTextField Label="ClickUp Personal API Token" Variant="Variant.Outlined"
+              T="string"
+              InputType="@_clickUpPersonalApiTokenInput"
+              Adornment="Adornment.End"
+              AdornmentIcon="@_clickUpPersonalApiTokenIcon"
+              OnAdornmentClick="ClickUpPersonalApiTokenInputIconClick" AdornmentAriaLabel="Show Personal API token"/>
+
+@code {
+    InputType _clickUpPersonalApiTokenInput = InputType.Password;
+    string _clickUpPersonalApiTokenIcon = Icons.Material.Filled.VisibilityOff;
+    bool _isShow;
+    
+    void ClickUpPersonalApiTokenInputIconClick()
+    {
+        @if (_isShow)
+        {
+            _isShow = false;
+            _clickUpPersonalApiTokenIcon = Icons.Material.Filled.VisibilityOff;
+            _clickUpPersonalApiTokenInput = InputType.Password;
+        }
+        else
+        {
+            _isShow = true;
+            _clickUpPersonalApiTokenIcon = Icons.Material.Filled.Visibility;
+            _clickUpPersonalApiTokenInput = InputType.Text;
+        }
+    }
+}
