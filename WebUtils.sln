@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUtils", "WebUtils\WebUtils.csproj", "{37248E15-19A2-479E-91FF-20B34E4B98BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37248E15-19A2-479E-91FF-20B34E4B98BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37248E15-19A2-479E-91FF-20B34E4B98BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37248E15-19A2-479E-91FF-20B34E4B98BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37248E15-19A2-479E-91FF-20B34E4B98BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
