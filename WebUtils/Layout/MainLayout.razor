@@ -7,7 +7,17 @@
 <MudLayout>
     <MudAppBar Elevation="1">
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())"/>
-        <MudText Typo="Typo.h5" Class="ml-3">Web Utils</MudText>
+        <MudText Typo="Typo.h5" Class="ml-3">
+            <MudAvatar Color="Color.Primary">W</MudAvatar>
+            <MudAvatar Color="Color.Secondary">E</MudAvatar>
+            <MudAvatar Color="Color.Tertiary">B</MudAvatar>
+            <div style="display: inline-block; margin-left: 16px"></div>
+            <MudAvatar Color="Color.Primary">U</MudAvatar>
+            <MudAvatar Color="Color.Secondary">T</MudAvatar>
+            <MudAvatar Color="Color.Tertiary">I</MudAvatar>
+            <MudAvatar Color="Color.Primary">L</MudAvatar>
+            <MudAvatar Color="Color.Secondary">S</MudAvatar>
+        </MudText>
         <MudSpacer/>
         <MudIconButton Icon="@(DarkLightModeButtonIcon)" Color="Color.Inherit" OnClick="@DarkModeToggle"/>
         <MudIconButton Icon="@Icons.Material.Filled.MoreVert" Color="Color.Inherit" Edge="Edge.End"/>
